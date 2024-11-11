@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="trgo9ZN88hMmm7dTY6h4">
+    <mxGraphModel dx="670" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="250" pageHeight="240" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sge5nvdn73r7LA1Sqd8k-5" value="SoPhuc" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="5" width="240" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="Sge5nvdn73r7LA1Sqd8k-6" value="+ tu: int&lt;div&gt;+ mau: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="Sge5nvdn73r7LA1Sqd8k-5">
+          <mxGeometry y="26" width="240" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Sge5nvdn73r7LA1Sqd8k-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="Sge5nvdn73r7LA1Sqd8k-5">
+          <mxGeometry y="60" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Sge5nvdn73r7LA1Sqd8k-8" value="&lt;div&gt;+ operator + (const PhanSo&amp;amp; b) : PhanSo&lt;/div&gt;&lt;div&gt;+ operator - (const PhanSo&amp;amp; b) : PhanSo&lt;/div&gt;&lt;div&gt;+ operator * (const PhanSo&amp;amp; b) : PhanSo&lt;/div&gt;&lt;div&gt;+ operator / (const PhanSo&amp;amp; b) : PhanSo&lt;/div&gt;&lt;div&gt;+ operator == (const PhanSo&amp;amp; b) : bool&lt;/div&gt;&lt;div&gt;+ operator != (const PhanSo&amp;amp; b) : bool&lt;/div&gt;&lt;div&gt;+ operator &amp;gt;= (const PhanSo&amp;amp; b) : bool&lt;/div&gt;&lt;div&gt;+ operator &amp;lt;= (const PhanSo&amp;amp; b) : bool&lt;/div&gt;&lt;div&gt;+ operator &amp;lt; (const PhanSo&amp;amp; b) : bool&lt;/div&gt;&lt;div&gt;+ operator &amp;gt; (const PhanSo&amp;amp; b) : bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="Sge5nvdn73r7LA1Sqd8k-5">
+          <mxGeometry y="68" width="240" height="168" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
