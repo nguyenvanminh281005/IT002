@@ -1,0 +1,3 @@
+E:/KHTN2023/IT002/23520945_BTTH3/BAI4/cmake-build-debug/CMakeFiles/BAI1.dir
+E:/KHTN2023/IT002/23520945_BTTH3/BAI4/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/KHTN2023/IT002/23520945_BTTH3/BAI4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
