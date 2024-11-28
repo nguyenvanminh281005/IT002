@@ -4,7 +4,6 @@
 
 using namespace std;
 
-// Triển khai lớp cơ sở GiaSuc
 GiaSuc::GiaSuc(int SoLuong) : SoLuong(SoLuong) {}
 
 int GiaSuc::LaySoLuong() const {
@@ -15,7 +14,6 @@ void GiaSuc::ThemSoLuong(int SoConMoi) {
     SoLuong += SoConMoi;
 }
 
-// Triển khai lớp Bo
 Bo::Bo(int SoLuong) : GiaSuc(SoLuong) {}
 
 string Bo::KeuLen() const {
@@ -23,14 +21,13 @@ string Bo::KeuLen() const {
 }
 
 int Bo::ChoSua() const {
-    return rand() % 21; // 0 - 20 lít
+    return rand() % 21;
 }
 
 int Bo::SinhCon() const {
-    return rand() % 4; // 0 - 3 con
+    return rand() % 4;
 }
 
-// Triển khai lớp Cuu
 Cuu::Cuu(int SoLuong) : GiaSuc(SoLuong) {}
 
 string Cuu::KeuLen() const {
@@ -38,14 +35,13 @@ string Cuu::KeuLen() const {
 }
 
 int Cuu::ChoSua() const {
-    return rand() % 6; // 0 - 5 lít
+    return rand() % 6;
 }
 
 int Cuu::SinhCon() const {
-    return rand() % 3; // 0 - 2 con
+    return rand() % 3;
 }
 
-// Triển khai lớp De
 De::De(int SoLuong) : GiaSuc(SoLuong) {}
 
 string De::KeuLen() const {
@@ -53,9 +49,9 @@ string De::KeuLen() const {
 }
 
 int De::ChoSua() const {
-    return rand() % 11; // 0 - 10 lít
+    return rand() % 11;
 }
 
 int De::SinhCon() const {
-    return rand() % 3; // 0 - 2 con
+    return rand() % 3;
 }
