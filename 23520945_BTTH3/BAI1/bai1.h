@@ -6,13 +6,12 @@ using namespace std;
 
 class PhanSo {
 private:
-    int tu; // Numerator
-    int mau; // Denominator
+    int tu;
+    int mau;
 public:
-    PhanSo(); // Default constructor
-    PhanSo(int x, int y); // Parameterized constructor
+    PhanSo();
+    PhanSo(int x, int y);
 
-    // Operator overloads
     PhanSo operator + (const PhanSo& b);
     PhanSo operator - (const PhanSo& b);
     PhanSo operator * (const PhanSo& b);
@@ -25,7 +24,6 @@ public:
     bool operator < (const PhanSo& b);
     bool operator > (const PhanSo& b);
 
-    // Friend functions
     friend istream& operator>>(istream &in, PhanSo &b);
     friend ostream& operator<<(ostream& os, const PhanSo& b);
 };
