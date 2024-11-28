@@ -1,7 +1,6 @@
 ﻿#include "bai1.h"
 
 int main() {
-    // Nhập thông tin Quản Lý
     string MaSoQL, TenQL;
     double LuongCoBanQL, TyLeThuong;
     cout << "Nhap thong tin Quan Ly:" << endl;
@@ -16,7 +15,6 @@ int main() {
     cin >> TyLeThuong;
     QuanLy quanLy(MaSoQL, TenQL, LuongCoBanQL, TyLeThuong);
 
-    // Nhập thông tin Kỹ Sư
     string MaSoKS, TenKS;
     double LuongCoBanKS;
     int SoGioLamThem;
@@ -32,7 +30,6 @@ int main() {
     cin >> SoGioLamThem;
     KySu kySu(MaSoKS, TenKS, LuongCoBanKS, SoGioLamThem);
 
-    // Xuất thông tin Quản Lý và Kỹ Sư
     cout << "\nThong Tin Quan Ly:" << endl;
     quanLy.Xuat();
 

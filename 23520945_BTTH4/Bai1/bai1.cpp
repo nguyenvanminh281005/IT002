@@ -1,7 +1,7 @@
 ﻿#include "bai1.h"
-
-// Định nghĩa phương thức của lớp NhanVien
-NhanVien::NhanVien(const string &MaSo, const string &Ten, double LuongCoBan): MaSo(MaSo), Ten(Ten), LuongCoBan(LuongCoBan) {}
+using namespace std;
+NhanVien::NhanVien(const string &MaSo, const string &Ten, double LuongCoBan)
+        : MaSo(MaSo), Ten(Ten), LuongCoBan(LuongCoBan) {}
 
 void NhanVien::Xuat() const {
     cout << "Ma So: " << MaSo << endl;
@@ -9,8 +9,8 @@ void NhanVien::Xuat() const {
     cout << "Luong Co Ban: " << fixed << setprecision(0) << LuongCoBan << endl;
 }
 
-// Định nghĩa phương thức của lớp QuanLy
-QuanLy::QuanLy(const string &MaSo, const string &Ten, double LuongCoBan, double TyLeThuong): NhanVien(MaSo, Ten, LuongCoBan), TyLeThuong(TyLeThuong) {}
+QuanLy::QuanLy(const string &MaSo, const string &Ten, double LuongCoBan, double TyLeThuong)
+        : NhanVien(MaSo, Ten, LuongCoBan), TyLeThuong(TyLeThuong) {}
 
 double QuanLy::TienThuong() const {
     return LuongCoBan * TyLeThuong;
@@ -22,8 +22,8 @@ void QuanLy::Xuat() const {
     cout << "Tien Thuong: " << fixed << setprecision(0) << TienThuong() << endl;
 }
 
-// Định nghĩa phương thức của lớp KySu
-KySu::KySu(const string &MaSo, const string &Ten, double LuongCoBan, int SoGioLamThem): NhanVien(MaSo, Ten, LuongCoBan), SoGioLamThem(SoGioLamThem) {}
+KySu::KySu(const string &MaSo, const string &Ten, double LuongCoBan, int SoGioLamThem)
+        : NhanVien(MaSo, Ten, LuongCoBan), SoGioLamThem(SoGioLamThem) {}
 
 double KySu::TienThuong() const {
     return SoGioLamThem * 100000;

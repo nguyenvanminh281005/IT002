@@ -1,4 +1,7 @@
-﻿#include <iostream>
+﻿#ifndef BAI1_H
+#define BAI1_H
+
+#include <iostream>
 #include <string>
 #include <iomanip>
 using namespace std;
@@ -36,3 +39,4 @@ public:
     void Xuat() const override;
 };
 
+#endif // BAI1_H
