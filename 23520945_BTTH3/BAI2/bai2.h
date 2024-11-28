@@ -6,14 +6,13 @@ using namespace std;
 
 class SoPhuc {
 private:
-    double dthuc; // Phần thực
-    double dao; // Phần ảo
+    double dthuc;
+    double dao;
 public:
-    // Constructors
-    SoPhuc(); // Khởi tạo mặc định
-    SoPhuc(double x, double y); // Khởi tạo với tham số
 
-    // Toán tử
+    SoPhuc();
+    SoPhuc(double x, double y);
+
     SoPhuc operator + (const SoPhuc& b);
     SoPhuc operator - (const SoPhuc& b);
     SoPhuc operator * (const SoPhuc& b);
@@ -22,7 +21,6 @@ public:
     bool operator == (const SoPhuc& b);
     bool operator != (const SoPhuc& b);
 
-    // Hàm bạn bè
     friend istream& operator>>(istream& in, SoPhuc& b);
     friend ostream& operator<<(ostream& os, const SoPhuc& b);
 };
