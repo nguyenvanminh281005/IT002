@@ -1,5 +1,5 @@
 #include "bai4.h"
-
+using namespace std;
 NgayThangNam::NgayThangNam() : iNgay(1), iThang(1), iNam(2000) {}
 
 NgayThangNam::NgayThangNam(int Nam, int Thang, int Ngay) : iNam(Nam), iThang(Thang), iNgay(Ngay) {

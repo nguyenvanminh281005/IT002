@@ -1,5 +1,5 @@
 #include "bai4.h"
-
+using namespace std;
 int main() {
     NgayThangNam ngay1, ngay2;
 
