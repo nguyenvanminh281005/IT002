@@ -1,18 +1,18 @@
-﻿#include <bits/stdc++.h>
+﻿#include <iostream>
+#include <vector>
+#include <iomanip>
 #include "bai2.h"
 using namespace std;
+
 int main() {
-    // Khởi tạo 5 phòng
     Deluxe A(5, 200000, 100000);
     Deluxe B(3, 150000, 50000);
     Premium C(4, 100000);
     Premium D(6, 250000);
     Business E(7);
 
-    // Lưu 5 phòng trong vector
     vector<Room*> Rooms = { &A, &B, &C, &D, &E };
 
-    // Tính xem phòng nào có doanh thu cao nhất
     double MaxRevenue = 0;
     string RoomType;
 
@@ -32,9 +32,9 @@ int main() {
             }
         }
     }
-
-    // In ra kết quả
-    cout << "Room type with the highest revenue: " << RoomType << " (Revenue: " << fixed << setprecision(0) << MaxRevenue << " VND)" << std::endl;
+    
+    cout << "Room type with the highest revenue: " << RoomType
+         << " (Revenue: " << fixed << setprecision(0) << MaxRevenue << " VND)" << endl;
 
     return 0;
 }

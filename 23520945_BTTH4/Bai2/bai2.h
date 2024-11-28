@@ -1,4 +1,8 @@
+#ifndef BAI2_H
+#define BAI2_H
+
 #include <string>
+using namespace std;
 
 class Room {
 protected:
@@ -8,8 +12,8 @@ protected:
 
 public:
     Room(int Nights, double ServiceFee = 0, double OtherFee = 0);
-    virtual double CalculateRevenue() const = 0; // Abstract function
     virtual ~Room() {}
+    virtual double CalculateRevenue() const = 0; // Abstract function
 };
 
 class Deluxe : public Room {
@@ -30,4 +34,4 @@ public:
     double CalculateRevenue() const override;
 };
 
-
+#endif // BAI2_H
