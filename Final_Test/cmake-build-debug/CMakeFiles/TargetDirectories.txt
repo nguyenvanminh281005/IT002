@@ -1,0 +1,3 @@
+D:/KHTN2023/IT002/Final_Test/cmake-build-debug/CMakeFiles/Final_Test.dir
+D:/KHTN2023/IT002/Final_Test/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/KHTN2023/IT002/Final_Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
